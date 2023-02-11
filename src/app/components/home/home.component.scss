@@ -1,0 +1,23 @@
+.main {
+  background-color: rgb(194, 241, 255);
+  padding: 3%;
+  height: auto;
+  .container {
+    display: block;
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      mat-card {
+        margin: 2%;
+        width: 25%;
+        padding: 3%;
+        img {
+          width: 20%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+

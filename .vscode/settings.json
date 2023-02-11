@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/71967109-c919-405e-a59b-86918b586ec5/AppServices/subscriptions/71967109-c919-405e-a59b-86918b586ec5/resourceGroups/testGroup/providers/Microsoft.Web/sites/myAshoroApp",
+    "appService.deploySubpath": "."
+}
