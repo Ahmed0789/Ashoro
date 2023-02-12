@@ -1,0 +1,68 @@
+$scale-green: #02A712;
+$scale-yellow: #FFFF9A;
+$scale-orange: #FBB833;
+$scale-red: #FF5050;
+$scale-dark-red: #FF0000;
+$scale-ligh-blue:rgb(194, 241, 255);
+
+$white:     #fff;
+$black:     #000;
+
+$text:      #000;
+
+
+//Greys
+$grey:                    #eae9e5;
+$grey-dk:                 #242323;
+$grey-link:               #605f5c;
+$grey-light:              lighten($grey-link, 25%);
+
+// Greens
+$new-defra-green:         #00a33b;
+$new-defra-green-tint-40: #c8e4b4;
+$new-defra-green-tint-60: #add78e;
+$corp:                    $new-defra-green;
+
+// $corp:                   #67650f;
+$corp-dk:                 #3f3e09;
+$corp-lg:                 #898700;
+
+// blues
+$blue: #23527c;
+$link-hover: $new-defra-green;
+
+// oranges
+$new-defra-orange:        #ffbf47;
+$link-focus:              $new-defra-orange;
+$beta:                    #f47738;
+
+// Stakeholder colours
+$trade:     #0099cc;
+$academic:    #660000;
+$public:    #adadaa;
+
+// Paths
+$img:             '../img/';
+
+// Breakpoints
+$breakpoint-xl:     1200px;
+$breakpoint-large:    992px;
+$breakpoint-medium:   768px;
+$breakpoint-small:    120px;
+
+
+// fonts
+$body_font:   "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+$title_font:    "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+// padding
+$padding-sm: 5px;
+$padding-md: 10px;
+$padding-lg: 15px;
+$padding-xlg: 30px;
+
+// margin
+$margin-sm: 5px;
+$margin-md: 10px;
+$margin-lg: 15px;
+$margin-xlg: 30px;

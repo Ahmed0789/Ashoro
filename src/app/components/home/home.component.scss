@@ -1,23 +1,63 @@
 .main {
-  background-color: rgb(194, 241, 255);
   padding: 3%;
-  height: auto;
+  min-height: 400px;
+  background-color: aliceblue;
+
   .container {
     display: block;
-    .cards{
+    // background-image: url("https://www.arnoldclark.com/cdn/images/insurance/car-insurance-alt/hero.svg");
+    // background-repeat: no-repeat;
+    // background-position:left;
+    // background-size: 600px 600px;
+    .image-container{
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      img {
+        width: 20%;
+        height: auto;
+      }
+    }
+
+    .cards {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       mat-card {
         margin: 2%;
-        width: 25%;
-        padding: 3%;
-        img {
-          width: 20%;
-          height: auto;
-        }
+        width: 24%;
+        padding:10px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px black;
+        background-color:rgb(123, 207, 255);
+        color: white;
+
+      }
+      .home-btns {
+        display: block;
+        margin: 10px;
+        background-color:white;
+        color: rgb(123, 207, 255);
+      }
+      .btn-help {
+        display: block;
+        margin: 10px;
+        width: 40%;
+        background-color:rgb(123, 207, 255);
+        color:white;
+      }
+      mat-expansion-panel{
+       min-width: 40%;
+       .mat-expansion-panel-header-title{
+        justify-content: space-between;
+       }
+       .mat-expansion-panel-header-description{
+        display: none;
+       }
       }
     }
   }
 }
-

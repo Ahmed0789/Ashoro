@@ -1,6 +1,14 @@
-<div class="header">
+<div class="header myHeader">
   <mat-toolbar>
-      <span><p>Welcome to Ashro Insurance Group</p></span>
-      <mat-icon>menu</mat-icon>
+      <span><p>Ashro Insurance LTD</p></span>
+      <span class="menu"><mat-icon>account_circle</mat-icon>
+        <mat-icon>contact_support</mat-icon>
+        <mat-icon (click)="expandNavBar()">menu</mat-icon></span>
+      <span class="expNavBar" [hidden]="!expand">
+        <mat-toolbar>
+          <input type="text" name="search-bar" id="search">
+          <button mat-button>Action</button>
+        </mat-toolbar>
+      </span>
   </mat-toolbar>
 </div>

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  expand: boolean = false
+  expandNavBar(){
+    if(this.expand == false){
+      this.expand = true
+    } else {
+      this.expand = false
+    }
 
+  }
 }
